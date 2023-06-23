@@ -1,44 +1,37 @@
-<h1 align="center">Hi 👋, Welcome Sell Coffe Online</h1>
+<h1 align="center">Hi 👋, Welcome to sell Coffee Online</h1>
+<p><img style="display:flex,align-items:center" textalign="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hodinhtuankiet&" alt="hodinhtuankiet" /></p>
 - 🤝 I’m looking for help with **Customer order online**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> </p>
+<hr width="100%">
+  <h2>Step to start project</h2>
+<p>install Mongodb</p>
+  <pre class="notranslate">
+<code>(https://www.mongodb.com/)</code>
+  </pre>
+  <p>install express</p>
+  <pre class="notranslate">
+<code>$ npm install express
+</code>
+  </pre>
+  <p>To find db in mongodb , u will dload mongoose and int</p>
+  <pre class="notranslate">
+<code>$ npm install mongoose
+// Using Node.js `require()`
+const mongoose = require('mongoose');
 
+// Using ES6 imports
+import mongoose from 'mongoose';
+</code>
+  </pre>
+  <p>To read data on client, we use handlebar</p>
+  <pre class="notranslate">
+<code><script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+example:<p>{{firstname}} {{lastname}}</p>
+</code>
+  </pre>
 
-
-           <details-menu class="SelectMenu" role="menu">
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-
-        <div class="SelectMenu-filter">
-          <input
-            class="SelectMenu-input form-control js-filterable-field"
-            id="toc-filter-field"
-            type="text"
-            autocomplete="off"
-            spellcheck="false"
-            autofocus
-            placeholder="Filter headings"
-            aria-label="Filter headings">
-        </div>
-
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" data-filterable-for="toc-filter-field" data-filterable-type="substring">
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 text-emphasized" style="-webkit-box-orient: vertical; padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#podstream">Podstream</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#podcast-streaming-application">Podcast Streaming Application</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#deployed-link--view-webapp">Deployed Link : View Webapp</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#this-is-a-web-application-for-streaming-podcasts-with-the-following-features">This is a web application for streaming podcasts with the following features:</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#getting-started">Getting Started</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#technologies-used">Technologies Used</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#steps-to-start-the-app">Steps to start the app</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#start-the-react-app">Start the react app</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#start-the-backend-server">Start the backend server</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#here-is-live-demo-of-our-web-app">Here is live demo of our web app:</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#here-are-some-pictures-of-the-web-application">Here are some pictures of the web application:</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:630937155,&quot;originating_url&quot;:&quot;https://github.com/rishavchanda/Podstream&quot;,&quot;user_id&quot;:120298180}}" data-hydro-click-hmac="2d5d81076053bf4c36b4a6362e2f0baea338ee38c8cf8a17f24073fc26ec2b6d" href="#conclusion">Conclusion</a>
-      </div>
-    </div>
-  </details-menu>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hodinhtuankiet&" alt="hodinhtuankiet" /></p>
