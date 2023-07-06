@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1027px) {
+    .job_card {
+        width: 95%;
+    }
+
+    .main-top {
+        text-align: center;
+    }
+
+    .search_bar {
+        justify-content: space-evenly;
+    }
+
+    .tag {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Styles for screens with a maximum width of 600px or less */
+    nav {
+        display: none;
+    }
+
+    .job_card {
+        max-height: 200px;
+        /* Hoặc bất kỳ giá trị nào phù hợp */
+        overflow: hidden;
+    }
+}
