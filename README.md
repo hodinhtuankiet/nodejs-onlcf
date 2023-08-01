@@ -34,4 +34,11 @@ import mongoose from 'mongoose';
 example:<p>{{firstname}} {{lastname}}</p>
 </code>
   </pre>
+  <b>- Cart Management Page</b>
+  <img src="https://github.com/hodinhtuankiet/nodejs_onlcf/assets/120298180/87ce07e5-ce87-4aae-8a22-3793dc07484f" alt="Order" />
+  </pre>
+   <b>- Product Management Page</b>
+  <img src="https://github.com/hodinhtuankiet/nodejs_onlcf/assets/120298180/e0fc2485-f128-43e8-b298-c6012c90fa02" alt="Product" />
+ 
+
 
